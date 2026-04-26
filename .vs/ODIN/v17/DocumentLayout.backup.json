@@ -1,0 +1,348 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ODIN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\frmnuevoticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\frmnuevoticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\frmnuevoticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\frmnuevoticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\frmnuevoticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\frmnuevoticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|C:\\Users\\User\\source\\repos\\ODIN\\odin\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\odin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\odin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\models\\evidencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\models\\evidencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|c:\\users\\user\\source\\repos\\odin\\odin\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F86016-BB10-4597-AA54-BFEB7185C24E}|ODIN\\ODIN.csproj|solutionrelative:odin\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmNuevoTicket.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmNuevoTicket.cs",
+              "RelativeDocumentMoniker": "ODIN\\FrmNuevoTicket.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmNuevoTicket.cs [Design]",
+              "RelativeToolTip": "ODIN\\FrmNuevoTicket.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:38:06.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmNuevoTicket.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmNuevoTicket.cs",
+              "RelativeDocumentMoniker": "ODIN\\FrmNuevoTicket.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmNuevoTicket.cs",
+              "RelativeToolTip": "ODIN\\FrmNuevoTicket.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:35:58.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmNuevoTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmNuevoTicket.Designer.cs",
+              "RelativeDocumentMoniker": "ODIN\\FrmNuevoTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmNuevoTicket.Designer.cs",
+              "RelativeToolTip": "ODIN\\FrmNuevoTicket.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:35:18.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "ODIN\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Services\\TicketService.cs",
+              "RelativeToolTip": "ODIN\\Services\\TicketService.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAwMQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:33:11.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Program.cs",
+              "RelativeDocumentMoniker": "ODIN\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Program.cs",
+              "RelativeToolTip": "ODIN\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:17:29.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormMainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FormMainMenu.cs",
+              "RelativeDocumentMoniker": "ODIN\\FormMainMenu.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FormMainMenu.cs [Design]",
+              "RelativeToolTip": "ODIN\\FormMainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:12:40.68Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormMainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FormMainMenu.cs",
+              "RelativeDocumentMoniker": "ODIN\\FormMainMenu.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FormMainMenu.cs",
+              "RelativeToolTip": "ODIN\\FormMainMenu.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:10:03.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "ODIN\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmLogin.cs",
+              "RelativeToolTip": "ODIN\\FrmLogin.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:54:08.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "ODIN\\FrmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmLogin.Designer.cs",
+              "RelativeToolTip": "ODIN\\FrmLogin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:54:30.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "ODIN\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Usuario.cs",
+              "RelativeToolTip": "ODIN\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:47:38.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Db.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Db.cs",
+              "RelativeDocumentMoniker": "ODIN\\Db.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Db.cs",
+              "RelativeToolTip": "ODIN\\Db.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:42:14.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "ODIN\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\FrmLogin.cs [Design]",
+              "RelativeToolTip": "ODIN\\FrmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:21:24.843Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ODIN\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Services\\AuthService.cs",
+              "RelativeToolTip": "ODIN\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:51:34.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "ODIN\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Cliente.cs",
+              "RelativeToolTip": "ODIN\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:49:45.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ODIN.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\ODIN.csproj",
+              "RelativeDocumentMoniker": "ODIN\\ODIN.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\ODIN.csproj",
+              "RelativeToolTip": "ODIN\\ODIN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-26T17:39:57.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Evidencia.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Evidencia.cs",
+              "RelativeDocumentMoniker": "ODIN\\Models\\Evidencia.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Evidencia.cs",
+              "RelativeToolTip": "ODIN\\Models\\Evidencia.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:49:10.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "ODIN\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\Models\\Ticket.cs",
+              "RelativeToolTip": "ODIN\\Models\\Ticket.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA6wCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:48:24.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\BaseForm.cs",
+              "RelativeDocumentMoniker": "ODIN\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ODIN\\ODIN\\BaseForm.cs",
+              "RelativeToolTip": "ODIN\\BaseForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:44:47.501Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

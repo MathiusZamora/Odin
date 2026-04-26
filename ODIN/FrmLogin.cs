@@ -1,0 +1,69 @@
+﻿// FrmLogin.cs
+using ODIN.Models;
+using ODIN.Services;
+
+namespace ODIN
+{
+    public partial class FrmLogin : Form
+    {
+        public FrmLogin()
+        {
+            InitializeComponent();
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+            AuthService.CrearAdminSiNoExiste();   // Crea admin/admin123 la primera vez
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            string usuario = txtUsuario.Text.Trim();
+            string clave = txtClave.Text;
+
+            if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(clave))
+            {
+                MessageBox.Show("Por favor ingresa usuario y contraseña.", "Datos incompletos",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            Usuario? usuarioLogueado = AuthService.Login(usuario, clave);
+
+            if (usuarioLogueado != null)
+            {
+                this.Hide();
+                var principal = new FormMainMenu(usuarioLogueado);
+                principal.FormClosed += (s, args) => this.Close();
+                principal.Show();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos.", "Acceso denegado",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtClave.Clear();
+                txtClave.Focus();
+            }
+        }
+
+        private void txtClave_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnIngresar.PerformClick();
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void FrmLogin_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+                Application.Exit();
+        }
+    }
+}
