@@ -120,7 +120,7 @@
             pnlNuevoTicket.BackColor = Color.White;
             pnlNuevoTicket.BorderStyle = BorderStyle.FixedSingle;
             pnlNuevoTicket.Cursor = Cursors.Hand;
-            pnlNuevoTicket.Location = new Point(105, 112);
+            pnlNuevoTicket.Location = new Point(63, 66);
             pnlNuevoTicket.Name = "pnlNuevoTicket";
             pnlNuevoTicket.Size = new Size(193, 244);
             pnlNuevoTicket.TabIndex = 0;
@@ -150,7 +150,7 @@
             pnlListaTickets.BackColor = Color.White;
             pnlListaTickets.BorderStyle = BorderStyle.FixedSingle;
             pnlListaTickets.Cursor = Cursors.Hand;
-            pnlListaTickets.Location = new Point(368, 112);
+            pnlListaTickets.Location = new Point(348, 66);
             pnlListaTickets.Name = "pnlListaTickets";
             pnlListaTickets.Size = new Size(193, 244);
             pnlListaTickets.TabIndex = 1;
@@ -180,7 +180,7 @@
             pnlMisTickets.BackColor = Color.White;
             pnlMisTickets.BorderStyle = BorderStyle.FixedSingle;
             pnlMisTickets.Cursor = Cursors.Hand;
-            pnlMisTickets.Location = new Point(630, 112);
+            pnlMisTickets.Location = new Point(619, 66);
             pnlMisTickets.Name = "pnlMisTickets";
             pnlMisTickets.Size = new Size(193, 244);
             pnlMisTickets.TabIndex = 2;

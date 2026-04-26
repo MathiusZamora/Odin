@@ -30,6 +30,9 @@ namespace ODIN
             ConfigurarVisibilidadPorRol();
 
             this.Text = $"ODIN - Bienvenido, {_usuario.Nombre}";
+
+            picNuevoTicket.SizeMode = PictureBoxSizeMode.Zoom;
+            picNuevoTicket.Image = Properties.Resources.NewTicket;
         }
 
         private void ActualizarReloj()
