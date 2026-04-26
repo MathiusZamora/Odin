@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿// FormMainMenu.cs
 using ODIN.Models;
+using System;
+using System.Windows.Forms;
 
 namespace ODIN
 {
-    public partial class FormMainMenu : Form   // BaseForm
+    public partial class FormMainMenu : Form
     {
         private readonly Usuario _usuario;
         private System.Windows.Forms.Timer relojTimer;
@@ -24,19 +18,16 @@ namespace ODIN
 
         private void FormMainMenu_Load(object sender, EventArgs e)
         {
-            // Información del usuario
             toolStripStatusLabel1.Text = $"Usuario: {_usuario.NombreUsuario}";
             toolStripStatusLabel2.Text = $"Rol: {_usuario.Rol}";
 
-            // Reloj en tiempo real
             ActualizarReloj();
             relojTimer = new System.Windows.Forms.Timer();
-            relojTimer.Interval = 1000;                    // 1 segundo
+            relojTimer.Interval = 1000;
             relojTimer.Tick += (s, args) => ActualizarReloj();
             relojTimer.Start();
 
-            // Configurar visibilidad según rol
-            ConfigurarMenuPorRol();
+            ConfigurarVisibilidadPorRol();
 
             this.Text = $"ODIN - Bienvenido, {_usuario.Nombre}";
         }
@@ -46,62 +37,40 @@ namespace ODIN
             toolStripStatusLabel3.Text = DateTime.Now.ToString("dddd, dd MMMM yyyy - HH:mm:ss");
         }
 
-        private void ConfigurarMenuPorRol()
+        private void ConfigurarVisibilidadPorRol()
         {
-            bool esAdmin = _usuario.Rol == "Administrador";
-
-            // Menú Gestión solo visible para Administradores
+            bool esAdmin = _usuario.Rol == "Administrador" || _usuario.Rol == "Supervisor";
             mnuGestion.Visible = esAdmin;
-            mnuUsuarios.Visible = esAdmin;
-            mnuAreas.Visible = esAdmin;
-
-            // Por ahora todos pueden ver tickets
-            mnuTickets.Visible = true;
         }
 
-        // ==================== EVENTOS DE BOTONES ====================
+        // ====================== EVENTOS DE BOTONES ======================
 
         private void pnlNuevoTicket_Click(object sender, EventArgs e)
         {
-            // Aquí abrirás el formulario para crear nuevo ticket
-            MessageBox.Show("Abrir formulario de Nuevo Ticket", "Nuevo Ticket");
-            // new FrmNuevoTicket(_usuario).ShowDialog();
+            if (Program.UsuarioActual == null)
+            {
+                MessageBox.Show("No se ha podido obtener el usuario actual.\nPor favor inicia sesión nuevamente.",
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            using var frm = new FrmNuevoTicket(Program.UsuarioActual);
+            frm.ShowDialog();
         }
 
         private void pnlListaTickets_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Abrir Lista de Todos los Tickets", "Lista de Tickets");
-            // new FrmListaTickets().ShowDialog();
+            using var frm = new FrmListaTickets();
+            frm.ShowDialog();
         }
 
         private void pnlMisTickets_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Abrir Mis Tickets", "Mis Tickets");
-            // new FrmMisTickets(_usuario).ShowDialog();
+            MessageBox.Show("Mis Tickets - Esta funcionalidad estará disponible pronto",
+                "En desarrollo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        // ==================== MENÚ SUPERIOR ====================
-
-        private void mnuNuevoTicket_Click(object sender, EventArgs e)
-        {
-            pnlNuevoTicket_Click(sender, e);
-        }
-
-        private void mnuListaTickets_Click(object sender, EventArgs e)
-        {
-            pnlListaTickets_Click(sender, e);
-        }
-
-        private void mnuUsuarios_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Gestión de Usuarios - Próximamente", "En desarrollo");
-            // new FrmGestionUsuarios().ShowDialog();
-        }
-
-        private void mnuAreas_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Gestión de Áreas - Próximamente", "En desarrollo");
-        }
+        // ====================== MENÚ SUPERIOR ======================
 
         private void mnuCerrarSesion_Click(object sender, EventArgs e)
         {
@@ -114,12 +83,24 @@ namespace ODIN
             }
         }
 
-        // Buena práctica: detener el timer al cerrar el formulario
+        private void mnuUsuarios_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Gestión de Usuarios - Próximamente", "En desarrollo");
+        }
+
+        private void mnuAreas_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Gestión de Áreas - Próximamente", "En desarrollo");
+        }
+
+        // Detener timer al cerrar
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             relojTimer?.Stop();
             relojTimer?.Dispose();
             base.OnFormClosing(e);
         }
+
+        
     }
 }

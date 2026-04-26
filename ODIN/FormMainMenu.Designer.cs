@@ -17,164 +17,219 @@
 
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.mnuArchivo = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuCerrarSesion = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuTickets = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuNuevoTicket = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuListaTickets = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuGestion = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuUsuarios = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAreas = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.panelBotones = new System.Windows.Forms.Panel();
-            this.pnlNuevoTicket = new System.Windows.Forms.Panel();
-            this.picNuevoTicket = new System.Windows.Forms.PictureBox();
-            this.lblNuevoTicket = new System.Windows.Forms.Label();
-            this.pnlListaTickets = new System.Windows.Forms.Panel();
-            this.picListaTickets = new System.Windows.Forms.PictureBox();
-            this.lblListaTickets = new System.Windows.Forms.Label();
-            this.pnlMisTickets = new System.Windows.Forms.Panel();
-            this.picMisTickets = new System.Windows.Forms.PictureBox();
-            this.lblMisTickets = new System.Windows.Forms.Label();
-
-            this.menuStrip1.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
-            this.panelBotones.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picNuevoTicket)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picListaTickets)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picMisTickets)).BeginInit();
-            this.SuspendLayout();
-
+            menuStrip1 = new MenuStrip();
+            mnuArchivo = new ToolStripMenuItem();
+            mnuCerrarSesion = new ToolStripMenuItem();
+            mnuGestion = new ToolStripMenuItem();
+            mnuUsuarios = new ToolStripMenuItem();
+            mnuAreas = new ToolStripMenuItem();
+            statusStrip1 = new StatusStrip();
+            toolStripStatusLabel1 = new ToolStripStatusLabel();
+            toolStripStatusLabel2 = new ToolStripStatusLabel();
+            toolStripStatusLabel3 = new ToolStripStatusLabel();
+            pnlNuevoTicket = new Panel();
+            picNuevoTicket = new PictureBox();
+            lblNuevoTicket = new Label();
+            pnlListaTickets = new Panel();
+            picListaTickets = new PictureBox();
+            lblListaTickets = new Label();
+            pnlMisTickets = new Panel();
+            picMisTickets = new PictureBox();
+            lblMisTickets = new Label();
+            menuStrip1.SuspendLayout();
+            statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picNuevoTicket).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picListaTickets).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picMisTickets).BeginInit();
+            SuspendLayout();
+            // 
             // menuStrip1
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-                this.mnuArchivo, this.mnuTickets, this.mnuGestion });
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1100, 28);
-
-            this.mnuArchivo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.mnuCerrarSesion });
-            this.mnuArchivo.Text = "Archivo";
-
-            this.mnuCerrarSesion.Text = "Cerrar Sesión";
-            this.mnuCerrarSesion.Click += mnuCerrarSesion_Click;
-
-            this.mnuTickets.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-                this.mnuNuevoTicket, this.mnuListaTickets });
-            this.mnuTickets.Text = "Tickets";
-
-            this.mnuNuevoTicket.Text = "Nuevo Ticket";
-            this.mnuNuevoTicket.Click += mnuNuevoTicket_Click;
-
-            this.mnuListaTickets.Text = "Lista de Tickets";
-            this.mnuListaTickets.Click += mnuListaTickets_Click;
-
-            this.mnuGestion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-                this.mnuUsuarios, this.mnuAreas });
-            this.mnuGestion.Text = "Gestión";
-            this.mnuGestion.Visible = false; // Se activará según rol
-
-            this.mnuUsuarios.Text = "Gestión de Usuarios";
-            this.mnuUsuarios.Click += mnuUsuarios_Click;
-
-            this.mnuAreas.Text = "Áreas / Departamentos";
-            this.mnuAreas.Click += mnuAreas_Click;
-
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { mnuArchivo, mnuGestion });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Padding = new Padding(5, 2, 0, 2);
+            menuStrip1.Size = new Size(962, 24);
+            menuStrip1.TabIndex = 4;
+            // 
+            // mnuArchivo
+            // 
+            mnuArchivo.DropDownItems.AddRange(new ToolStripItem[] { mnuCerrarSesion });
+            mnuArchivo.Name = "mnuArchivo";
+            mnuArchivo.Size = new Size(60, 20);
+            mnuArchivo.Text = "Archivo";
+            // 
+            // mnuCerrarSesion
+            // 
+            mnuCerrarSesion.Name = "mnuCerrarSesion";
+            mnuCerrarSesion.Size = new Size(143, 22);
+            mnuCerrarSesion.Text = "Cerrar Sesión";
+            mnuCerrarSesion.Click += mnuCerrarSesion_Click;
+            // 
+            // mnuGestion
+            // 
+            mnuGestion.DropDownItems.AddRange(new ToolStripItem[] { mnuUsuarios, mnuAreas });
+            mnuGestion.Name = "mnuGestion";
+            mnuGestion.Size = new Size(59, 20);
+            mnuGestion.Text = "Gestión";
+            // 
+            // mnuUsuarios
+            // 
+            mnuUsuarios.Name = "mnuUsuarios";
+            mnuUsuarios.Size = new Size(178, 22);
+            mnuUsuarios.Text = "Gestión de Usuarios";
+            mnuUsuarios.Click += mnuUsuarios_Click;
+            // 
+            // mnuAreas
+            // 
+            mnuAreas.Name = "mnuAreas";
+            mnuAreas.Size = new Size(178, 22);
+            mnuAreas.Text = "Gestión de Áreas";
+            mnuAreas.Click += mnuAreas_Click;
+            // 
             // statusStrip1
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-                this.toolStripStatusLabel1, this.toolStripStatusLabel2, this.toolStripStatusLabel3 });
-            this.statusStrip1.Location = new System.Drawing.Point(0, 650);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1100, 25);
-
-            this.toolStripStatusLabel1.Text = "Usuario: ";
-            this.toolStripStatusLabel2.Spring = true;
-            this.toolStripStatusLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.toolStripStatusLabel3.Text = "Fecha y Hora";
-
-            // Panel de botones grandes
-            this.panelBotones.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBotones.BackColor = System.Drawing.Color.FromArgb(245, 245, 245);
-            this.panelBotones.Padding = new System.Windows.Forms.Padding(60);
-
-            // Botón Nuevo Ticket
-            this.pnlNuevoTicket.Size = new System.Drawing.Size(220, 220);
-            this.pnlNuevoTicket.BackColor = System.Drawing.Color.White;
-            this.pnlNuevoTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlNuevoTicket.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlNuevoTicket.Location = new System.Drawing.Point(100, 80);
-            this.pnlNuevoTicket.Click += pnlNuevoTicket_Click;
-
-            this.picNuevoTicket.Size = new System.Drawing.Size(100, 100);
-            this.picNuevoTicket.Location = new System.Drawing.Point(60, 30);
-            this.picNuevoTicket.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-
-            this.lblNuevoTicket.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblNuevoTicket.Location = new System.Drawing.Point(20, 150);
-            this.lblNuevoTicket.Text = "Nuevo Ticket";
-            this.lblNuevoTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
-            // Botón Lista de Tickets
-            this.pnlListaTickets.Size = new System.Drawing.Size(220, 220);
-            this.pnlListaTickets.BackColor = System.Drawing.Color.White;
-            this.pnlListaTickets.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlListaTickets.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlListaTickets.Location = new System.Drawing.Point(380, 80);
-            this.pnlListaTickets.Click += pnlListaTickets_Click;
-
-            this.picListaTickets.Size = new System.Drawing.Size(100, 100);
-            this.picListaTickets.Location = new System.Drawing.Point(60, 30);
-            this.picListaTickets.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-
-            this.lblListaTickets.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblListaTickets.Location = new System.Drawing.Point(20, 150);
-            this.lblListaTickets.Text = "Lista de Tickets";
-            this.lblListaTickets.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
-            // Botón Mis Tickets
-            this.pnlMisTickets.Size = new System.Drawing.Size(220, 220);
-            this.pnlMisTickets.BackColor = System.Drawing.Color.White;
-            this.pnlMisTickets.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlMisTickets.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlMisTickets.Location = new System.Drawing.Point(660, 80);
-            this.pnlMisTickets.Click += pnlMisTickets_Click;
-
-            this.picMisTickets.Size = new System.Drawing.Size(100, 100);
-            this.picMisTickets.Location = new System.Drawing.Point(60, 30);
-            this.picMisTickets.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-
-            this.lblMisTickets.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblMisTickets.Location = new System.Drawing.Point(20, 150);
-            this.lblMisTickets.Text = "Mis Tickets";
-            this.lblMisTickets.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
+            // 
+            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripStatusLabel2, toolStripStatusLabel3 });
+            statusStrip1.Location = new Point(0, 634);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Padding = new Padding(1, 0, 12, 0);
+            statusStrip1.Size = new Size(962, 22);
+            statusStrip1.TabIndex = 3;
+            // 
+            // toolStripStatusLabel1
+            // 
+            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new Size(53, 17);
+            toolStripStatusLabel1.Text = "Usuario: ";
+            // 
+            // toolStripStatusLabel2
+            // 
+            toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            toolStripStatusLabel2.Size = new Size(820, 17);
+            toolStripStatusLabel2.Spring = true;
+            toolStripStatusLabel2.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // toolStripStatusLabel3
+            // 
+            toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            toolStripStatusLabel3.Size = new Size(76, 17);
+            toolStripStatusLabel3.Text = "Fecha y Hora";
+            // 
+            // pnlNuevoTicket
+            // 
+            pnlNuevoTicket.BackColor = Color.White;
+            pnlNuevoTicket.BorderStyle = BorderStyle.FixedSingle;
+            pnlNuevoTicket.Cursor = Cursors.Hand;
+            pnlNuevoTicket.Location = new Point(105, 112);
+            pnlNuevoTicket.Name = "pnlNuevoTicket";
+            pnlNuevoTicket.Size = new Size(193, 244);
+            pnlNuevoTicket.TabIndex = 0;
+            pnlNuevoTicket.Click += pnlNuevoTicket_Click;
+            // 
+            // picNuevoTicket
+            // 
+            picNuevoTicket.Location = new Point(50, 40);
+            picNuevoTicket.Name = "picNuevoTicket";
+            picNuevoTicket.Size = new Size(120, 120);
+            picNuevoTicket.SizeMode = PictureBoxSizeMode.Zoom;
+            picNuevoTicket.TabIndex = 0;
+            picNuevoTicket.TabStop = false;
+            // 
+            // lblNuevoTicket
+            // 
+            lblNuevoTicket.AutoSize = true;
+            lblNuevoTicket.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblNuevoTicket.Location = new Point(40, 180);
+            lblNuevoTicket.Name = "lblNuevoTicket";
+            lblNuevoTicket.Size = new Size(100, 23);
+            lblNuevoTicket.TabIndex = 0;
+            lblNuevoTicket.Text = "Nuevo Ticket";
+            // 
+            // pnlListaTickets
+            // 
+            pnlListaTickets.BackColor = Color.White;
+            pnlListaTickets.BorderStyle = BorderStyle.FixedSingle;
+            pnlListaTickets.Cursor = Cursors.Hand;
+            pnlListaTickets.Location = new Point(368, 112);
+            pnlListaTickets.Name = "pnlListaTickets";
+            pnlListaTickets.Size = new Size(193, 244);
+            pnlListaTickets.TabIndex = 1;
+            pnlListaTickets.Click += pnlListaTickets_Click;
+            // 
+            // picListaTickets
+            // 
+            picListaTickets.Location = new Point(50, 40);
+            picListaTickets.Name = "picListaTickets";
+            picListaTickets.Size = new Size(120, 120);
+            picListaTickets.SizeMode = PictureBoxSizeMode.Zoom;
+            picListaTickets.TabIndex = 0;
+            picListaTickets.TabStop = false;
+            // 
+            // lblListaTickets
+            // 
+            lblListaTickets.AutoSize = true;
+            lblListaTickets.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblListaTickets.Location = new Point(30, 180);
+            lblListaTickets.Name = "lblListaTickets";
+            lblListaTickets.Size = new Size(100, 23);
+            lblListaTickets.TabIndex = 0;
+            lblListaTickets.Text = "Lista de Tickets";
+            // 
+            // pnlMisTickets
+            // 
+            pnlMisTickets.BackColor = Color.White;
+            pnlMisTickets.BorderStyle = BorderStyle.FixedSingle;
+            pnlMisTickets.Cursor = Cursors.Hand;
+            pnlMisTickets.Location = new Point(630, 112);
+            pnlMisTickets.Name = "pnlMisTickets";
+            pnlMisTickets.Size = new Size(193, 244);
+            pnlMisTickets.TabIndex = 2;
+            pnlMisTickets.Click += pnlMisTickets_Click;
+            // 
+            // picMisTickets
+            // 
+            picMisTickets.Location = new Point(50, 40);
+            picMisTickets.Name = "picMisTickets";
+            picMisTickets.Size = new Size(120, 120);
+            picMisTickets.SizeMode = PictureBoxSizeMode.Zoom;
+            picMisTickets.TabIndex = 0;
+            picMisTickets.TabStop = false;
+            // 
+            // lblMisTickets
+            // 
+            lblMisTickets.AutoSize = true;
+            lblMisTickets.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblMisTickets.Location = new Point(45, 180);
+            lblMisTickets.Name = "lblMisTickets";
+            lblMisTickets.Size = new Size(100, 23);
+            lblMisTickets.TabIndex = 0;
+            lblMisTickets.Text = "Mis Tickets";
+            // 
             // FormMainMenu
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1100, 675);
-            this.Controls.Add(this.panelBotones);
-            this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ODIN - Sistema de Gestión de Tickets";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += FormMainMenu_Load;
-
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
-            this.panelBotones.ResumeLayout(false);
-            this.panelBotones.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picNuevoTicket)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picListaTickets)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picMisTickets)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(962, 656);
+            Controls.Add(pnlNuevoTicket);
+            Controls.Add(pnlListaTickets);
+            Controls.Add(pnlMisTickets);
+            Controls.Add(statusStrip1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
+            Name = "FormMainMenu";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "ODIN - Sistema de Gestión de Tickets";
+            WindowState = FormWindowState.Maximized;
+            Load += FormMainMenu_Load;
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picNuevoTicket).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picListaTickets).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picMisTickets).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

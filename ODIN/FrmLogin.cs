@@ -32,6 +32,8 @@ namespace ODIN
 
             if (usuarioLogueado != null)
             {
+                Program.UsuarioActual = usuarioLogueado;     // ← ESTA LÍNEA ES CLAVE
+
                 this.Hide();
                 var principal = new FormMainMenu(usuarioLogueado);
                 principal.FormClosed += (s, args) => this.Close();
